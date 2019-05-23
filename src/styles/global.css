@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Lato');
+
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+    box-sizing: border-box;
+    line-height: 1.6;
+    
+  }
+div.container{
+  padding-top: 3rem;
+}
+ 
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+a {
+    color: #181818;
+    text-decoration: none;
+    background-image: none;
+    font-family: 'Dosis', sans-serif;
+}
+
+ul.prevNext {
+  padding: 0;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  display: block;
+  font-size: 1rem;
+  width: 20%;
+  margin: 1rem;
+  background: none;
+  border: 1px solid  #afafaf;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: #383838; 
+  float: left;
+}
+
+.button a {
+  color: rgb(26, 64, 73);
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 8px 0 rgba(0,0,0,0.19);
+}
+
+div.thumb {
+    margin: 0; 
+    padding: 1em; 
+    width: 100%;
+    height: 100%;
+    clear: both;
+}
+
+div.workimage {
+  margin: 3rem auto;
+  width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: auto;
+  }
+
+
+.row::before,
+.row::after {
+  display: table;
+  content: ' ';
+  clear: both;
+}
+
+.one,
+.one-third,
+.two-thirds,
+.one-fourth,
+.half {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+    .one {
+      width: 100%;
+    }
+    .half {
+      width: calc(100% / 2);
+    }
+    .one-third {
+      width: calc(100% / 3);
+    }
+    .one-fourth {
+      width: calc(100% / 4);
+    }
+    .two-thirds {
+      width: calc(100% / 3 * 2);
+    }
+    .column {
+      float: left;
+    }
+  }
+

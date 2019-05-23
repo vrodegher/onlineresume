@@ -1,0 +1,13 @@
+.coverpage {
+    background-image: none;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.container {
+position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
