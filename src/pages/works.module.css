@@ -1,0 +1,42 @@
+
+
+
+
+.card {
+  height: 38rem;
+  width: 90%;
+  position: relative;
+  
+  color: #000851;
+  box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  margin-top: 3rem;
+  border-radius: 5px;
+  }
+  
+  .cardcontent {
+    padding: 30px 30px 50px;
+  }
+  
+  .card h1 {
+    color: #fff;
+    margin: 2rem 0;
+    line-height: 1.2;
+  }
+  
+  .card p {
+    color: #1d2aaf;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 30px;
+  }
+
+
+@media (min-width: 680px), screen {
+
+  .card {
+    width: 70%;
+  }
+
+} 

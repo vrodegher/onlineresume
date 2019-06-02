@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css?family=Paytone+One|Source+Sans+Pro&display=swap');
+
+:root {
+  --main-font-family:'Source Sans Pro', sans-serif;
+  --alt-font-family: 'Paytone One', sans-serif;
+  --main-color: #1d2aaf;
+  --alt-color: #ffffff;
+}
+
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    height: auto;
+    box-sizing: border-box;
+    line-height: 1.6;
+    
+    background: linear-gradient(0deg, #FC466B 0%, #3F5EFB 100%);
+  
+  }
+
+main {
+  margin: 4rem auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: auto;
+}
+ 
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: var(--alt-font-family);
+    color: var(--alt-color);
+    line-height: 1.2;
+   
+  }
+  
+  h1,
+  h2
+ {
+    margin-bottom: 3rem;
+  }
+
+  h3 {
+    margin: 2rem auto;
+  }
+  
+
+
+  p {
+    font-family: var(--main-font-family);
+    color: var(--main-color);
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+a {
+  color: var(--alt-color);
+    text-decoration: none;
+    background-image: none;
+    font-family: var(--alt-font-family);
+}
+
+ul.prevNext {
+  padding: 0;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  display: block;
+  font-size: 1rem;
+  width: 20%;
+  margin: 1rem;
+  background: #fff;
+  border: 1px solid  #afafaf;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: #141414; 
+  float: left;
+}
+
+.button a {
+  color: #3F5EFB;
+}
+
+.button a:hover {
+  color: #FC466B;
+}
+.button:hover,
+.button:focus {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 8px 0 rgba(0,0,0,0.19);
+  
+}
+
+div.thumb {
+    margin: 0; 
+    padding: 1em; 
+    width: 100%;
+    height: 100%;
+    clear: both;
+}
+
+div.workimage {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  margin: 0.5rem 0.5rem 0.5rem 2rem;
+  float: right;
+  width: 45%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 8px 0 rgba(0,0,0,0.19);
+}
+
+div.profileimage {
+  width: 25rem;
+  margin: 1rem;
+}
+
+
+
+.row::before,
+.row::after {
+  display: table;
+  content: ' ';
+  clear: both;
+}
+
+.one,
+.one-third,
+.two-thirds,
+.one-fourth,
+.half {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+    .one {
+      width: 100%;
+    }
+    .half {
+      width: calc(100% / 2);
+    }
+    .one-third {
+      width: calc(100% / 3);
+    }
+    .one-fourth {
+      width: calc(100% / 4);
+    }
+    .two-thirds {
+      width: calc(100% / 3 * 2);
+    }
+    .column {
+      float: left;
+    }
+  }
+

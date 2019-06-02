@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Rodegher Showcase`,
+    description: `Rodegher Vanessa - Developer | Designer - Online Showcase`,
+    author: `Vanessa`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,8 +13,30 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content`,
+        name: "pages",
+      },
+    },
+    
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 970,
+            },
+          },
+        ],
+      },
+    },
+    'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
