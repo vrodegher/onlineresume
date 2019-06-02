@@ -9,14 +9,17 @@ function BlogPost(props) {
     const { title, image } = props.data.markdownRemark.frontmatter;
     const { prev, next } = props.pageContext;
 
+    
+
     return (
     <Layout>
         <div className="container">
             <h1>{title}</h1>
-            
+            <div className="workimage">{image && <Img fluid={image.childImageSharp.fluid} />}</div>
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
 
-            <div className="workimage">{image && <Img fluid={image.childImageSharp.fluid} />}</div>
+           
+           
 
             
             <PrevNext prev={prev && prev.node} next={next && next.node} />
@@ -46,6 +49,7 @@ export const query = graphql`
             }
           }
         }
+     
        }
    }
 }

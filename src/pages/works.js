@@ -23,7 +23,7 @@ const IndexPage = (props) => {
           <div className="column one-third">
             <div className={styles.card}>
               
-               
+            
                 <div className="card-image"><Img fluid={node.frontmatter.logo.childImageSharp.fluid} /></div>
                 <div className={styles.cardcontent}>
                 <h1>{node.frontmatter.title}</h1>

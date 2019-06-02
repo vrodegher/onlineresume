@@ -1,7 +1,8 @@
-.coverpage {
-    background-image: none;
-    background-repeat:no-repeat;
-    background-size:cover;
+
+div.coverpage {
+  
+    height: 80rem;
+ 
 }
 
 .container {

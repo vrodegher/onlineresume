@@ -1,8 +1,8 @@
 ---
 title: Stimme Berlin
 description: Wordpress Website
-date: '2018-12-2'
-logo: 'wp.jpg'
+date: '2019-04-08'
+logo: 'wp.png'
 image: 'stimmeberlin.jpg'
 tags: ['Wordpress','WP Theme','PHP']
 ---

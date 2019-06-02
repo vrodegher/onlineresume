@@ -1,8 +1,9 @@
 ---
 title: The Builder App
-date: '2018-12-02'
-logo: 'react.jpg'
+date: '2019-04-03'
+logo: 'react.png'
 image: 'builder.jpg'
+
 tags: ['javascript','react']
 ---
 
@@ -18,4 +19,5 @@ The project, that is still a work in progress, is a basic react app, created to 
 
 
 ###Live: 
-<a href="#" target=_blank>The Burger Builder</a>
+<a href="https://github.com/Rodegrafika/burger-builder" target="_blank">Code source on Github</a>
+

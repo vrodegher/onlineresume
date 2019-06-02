@@ -1,8 +1,8 @@
 ---
 title: React Gallery
 description: Image gallery built with Wordpress and React
-date: '2018-12-2'
-logo: 'react1.jpg'
+date: '2019-04-07'
+logo: 'react1.png'
 image: 'showcase.jpg'
 tags: ['react', 'wordpress', 'Wordpress API', 'Headless CMS']
 ---
@@ -24,4 +24,4 @@ Here are the links to tutorials I referred to during the Project:
 
 
 ###Live: 
-<a href="#" target=_blank>react gallery</a>
+<a href="https://github.com/Rodegrafika/showcase" target=_blank>Source code in Github (without Wordpress)</a>

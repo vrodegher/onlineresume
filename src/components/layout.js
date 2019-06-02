@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Footer from "./footer"
 
 import Header from "./header"
-import "./layout.css"
+
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
           style={{
             margin: `3rem auto`,
             maxWidth: 960,
-            padding: `0 1rem`
+            padding: `2rem 0.5rem`
             
           }}
         >

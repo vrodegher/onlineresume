@@ -8,7 +8,7 @@ export default () => (
         <div className={styles.title}>
         <Link to="/works/"><h1>Vanessa Rodegher</h1>
             <h4>Frontend Developer/Designer</h4></Link>
-            <Link to="/contact/">Contact</Link>
+            <Link to="/works/">Have a look..</Link>
         </div>
     </div>
 </div>  
