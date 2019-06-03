@@ -14,7 +14,8 @@ The App is written in vanilla Javascript. Sound is provided with the <a href=htt
 
 
 ####What I've learned
-Through this project, I learned DOM manipulation through Javascript, the use of algorithms and how to use extern Javascript libraries.
+Through this project, I learned DOM manipulation through Javascript, basic algorithms and how to use extern Javascript libraries.
 
 
-####Live: <a href="https://rodegrafika.github.io/BeatApp/" target="_blank">Beat App</a>
+####Live: 
+<a href="https://rodegrafika.github.io/BeatApp/" target="_blank">Beat App</a>

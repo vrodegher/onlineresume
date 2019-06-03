@@ -18,4 +18,5 @@ The project was an introduction of the main concepts concerning Object-Oriented 
 It also provides me a basic knowledge of creating an managing a SQL Database with myPhpAdmin.
 
 
-####Live: <a href="https://github.com/Rodegrafika/php.dev" target="_blank">Code source on Github</a>
+####Live: 
+<a href="https://github.com/Rodegrafika/php.dev" target="_blank">Source code on Github</a>

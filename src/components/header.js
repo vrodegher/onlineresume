@@ -11,7 +11,7 @@ const ListLink = props => (
 const Header = ({ siteTitle }) => (
   <header style={{ marginBottom: `1.5rem` }}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-        <h3 style={{ display: `inline` }}>{siteTitle}</h3>
+        <h2 style={{ display: `inline` }}>{siteTitle}</h2>
       </Link>
       <ul style={{ listStyle: `none`, float: `right`}}>
         

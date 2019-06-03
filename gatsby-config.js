@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Rodegher Showcase`,
-    description: `Rodegher Vanessa - Developer | Designer - Online Showcase`,
-    author: `Vanessa`,
+    title: `Rodegher {Developer && Designer} `,
+    description: `Rodegher Vanessa - Developer | Designer `,
+    author: `Vanessa Rodegher`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `rodegher-online-resume`,
+        short_name: `onlineresume`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

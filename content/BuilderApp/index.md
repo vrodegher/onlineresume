@@ -19,5 +19,5 @@ The project, that is still a work in progress, is a basic react app, created to 
 
 
 ###Live: 
-<a href="https://github.com/Rodegrafika/burger-builder" target="_blank">Code source on Github</a>
+<a href="https://github.com/Rodegrafika/burger-builder" target="_blank">Source code on Github</a>
 
