@@ -7,25 +7,29 @@ import Image from "../components/image"
 
 export default ({ data }) => (
   <Layout>
-    <h1>About me</h1>
+    
 
     <div classNamw="row">
       <div className="column half">
-        <div className="profileimage">
+        <div className={styles.profileimage}>
         <Image />
         </div>
      
       </div>
       <div className="column half">
-        <h3>Hi there!</h3>
-<p>I'm Vanessa Rodegher a Web Designer and Developer based in Berlin.
-I create functional and beautiful websites.
-I work with different tools, from frameworks like Bootstrap to plain HTML and CSS with JavaScript or jQuery, or using a bit of PHP to find my way through WordPress... I like to challenge myself and learn new things.</p>
+        <h2>Hi there!</h2>
+<p> I'm Vanessa Rodegher a Web Designer and Developer based in Berlin.  </p>
+<p>My background is a bit unusual, I've studied "Performing Art and Media" in Venice (Italy) and "Illustration Design" in Berlin (Germany), and teach myself how to code!</p>
+<p>Here is a list of the stuff I like to work with, but I'm always looking for learning something new and I enjoy challenging myself!
+</p>
+<p>...and yes I speak fluently German, English and of course Italian.</p>
+<br/>
       </div>
     </div>
+   
     <div classNamw="row">
       <div className="column one">
-    <h2>Skills</h2>
+    
     </div>
     </div>
     <div classNamw="row">

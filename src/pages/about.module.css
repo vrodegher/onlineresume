@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Paytone+One|Source+Sans+Pro&display=swap');
 
+
+
 div.skillcard {
     padding: 0.5rem 1rem 3rem 2rem;
     margin: 1rem auto;
@@ -7,7 +9,7 @@ div.skillcard {
   box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   position: relative;
-  margin: 1rem 2rem 1rem 0rem;
+  margin: 1.5rem 2rem 1rem 0rem;
   border-radius: 20px;
 }
 
@@ -24,5 +26,11 @@ div.skillcard {
 }
 
 p {
+  margin: 1.5rem 2rem 1rem 0rem;
   font-size: 1.2rem;
+}
+
+div.profileimage {
+  width: 25rem;
+  margin: 1rem;
 }

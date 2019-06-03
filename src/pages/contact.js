@@ -6,7 +6,8 @@ import Layout from "../components/layout"
 export default () => (
   <Layout>
     <div className={styles.coverpage}>
-      <h1>Contact</h1>
+      <br/>
+      <br />
     <h2>Hi, you can contact me here</h2>
    <form
    className="contact-form"
