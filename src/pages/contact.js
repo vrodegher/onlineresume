@@ -15,7 +15,7 @@ export default () => (
     name="contact-form"
     method="POST"
     data-netlify="true"
-    data-netlify-honeypot="bot-field"
+    
     action="/success"
     >
       <h3><label for="name">Name</label>
