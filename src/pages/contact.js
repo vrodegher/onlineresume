@@ -12,7 +12,7 @@ export default () => (
     <h2>Hi, you can contact me here</h2>
    <form
    className="contact-form"
-    name="contact"
+    name="contact-form"
     method="POST"
     data-netlify="true"
     data-netlify-honeypot="bot-field"

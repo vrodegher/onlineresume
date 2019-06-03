@@ -148,8 +148,7 @@ Style for forms
 */
 
 .contact-form {
-  width: 50%;
-
+  width: 100%;
 }
 
 input,
@@ -166,6 +165,8 @@ textarea {
   margin-bottom: 3rem;
  float: none;
 }
+
+
 
 input::placeholder {
   
@@ -219,3 +220,11 @@ Style for the grid layout
     
   }
 
+  div.footer {
+    clear:both;
+    position: relative;
+    height: 30px;
+    bottom: -50px;
+     width: 100%;
+     text-align: center;
+ }

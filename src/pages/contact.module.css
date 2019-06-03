@@ -1,5 +1,6 @@
 div.coverpage {
-  
+    position: relative;
+    min-height: 100vh;
     height: 45rem;
  
 }
