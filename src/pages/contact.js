@@ -1,12 +1,14 @@
 import React from "react"
 import styles from "./contact.module.css"
 import Layout from "../components/layout"
+import { Link } from "gatsby"
 
 
 export default () => (
   <Layout>
     <div className={styles.coverpage}>
-      <h1>Contact</h1>
+      <br/>
+      <br />
     <h2>Hi, you can contact me here</h2>
    <form
    className="contact-form"
@@ -27,9 +29,9 @@ export default () => (
    
 
     <h2>...or here</h2>
-    <i class="fab fa-github"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-linkedin"></i>
+    <a href="https://github.com/Rodegrafika" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/v_rodegher" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://de.linkedin.com/in/vanessarodegher" target="_blank"><i class="fab fa-linkedin"></i></a>
 
     
 

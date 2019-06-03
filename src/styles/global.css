@@ -133,10 +133,7 @@ div.workimage {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 8px 0 rgba(0,0,0,0.19);
 }
 
-div.profileimage {
-  width: 25rem;
-  margin: 1rem;
-}
+
 
 i.fab {
   color: #fff;
@@ -192,6 +189,7 @@ Style for the grid layout
 .two-thirds,
 .one-fourth,
 .half {
+  margin-top: 1.2rem;
   width: 100%;
 }
 
@@ -212,7 +210,11 @@ Style for the grid layout
       width: calc(100% / 3 * 2);
     }
     .column {
+      margin-top: 2rem;
+      margin-bottom: -0.5rem;
       float: left;
     }
+
+    
   }
 
