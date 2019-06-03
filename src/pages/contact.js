@@ -11,13 +11,15 @@ export default () => (
       <br />
     <h2>Hi, you can contact me here</h2>
    <form
+
    className="contact-form"
     name="contact-form"
     method="POST"
     data-netlify="true"
-    
+    data-netlify-honeypot="bot-field"
     action="/success"
     >
+      <input type="hidden" name="form-name" value="contact-form" />
       <h3><label for="name">Name</label>
       <input name="name" placeholder="Jean Doe" type="text" /></h3>
       <h3><label for="email">Email</label>
