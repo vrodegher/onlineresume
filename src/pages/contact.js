@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./contact.module.css"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+
 
 
 export default () => (
@@ -13,9 +13,10 @@ export default () => (
    <form
    className="contact-form"
     name="contact"
-    method="post"
+    method="POST"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
+    action="/success"
     >
       <h3><label for="name">Name</label>
       <input name="name" placeholder="Jean Doe" type="text" /></h3>
@@ -23,7 +24,7 @@ export default () => (
       <input name="email" placeholder="jean@jeandoe.com" type="email" /></h3>
       <h3><label for="message">Message</label>
       <textarea name="message" cols="30" rows="10"/></h3>
-      <button className="button contact">Send</button>
+      <button className="button contact" type="submit">Send</button>
       
     </form>
    
