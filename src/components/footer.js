@@ -1,9 +1,9 @@
 import { Link } from "gatsby"
 import React from "react"
-import styles from "./footer.module.css"
+
 
 const Footer = () =>
-<div className={styles.footer}>
+<div className="footer">
 <p>Vanessa Rodegher 
   © 
   {new Date().getFullYear()}, Built with
