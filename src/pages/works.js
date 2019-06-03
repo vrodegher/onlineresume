@@ -13,7 +13,7 @@ const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
   return (
   <Layout>
-    <h2>Works I've done so far...</h2>
+
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       
       <div className="row">
