@@ -1,5 +1,9 @@
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css');
+
 @import url('https://fonts.googleapis.com/css?family=Paytone+One|Source+Sans+Pro&display=swap');
+
+
 
 :root {
   --main-font-family:'Source Sans Pro', sans-serif;
@@ -19,6 +23,7 @@ html {
     background: linear-gradient(0deg, #FC466B 0%, #3F5EFB 100%);
   
   }
+
 
 main {
   margin: 4rem auto;
@@ -95,6 +100,7 @@ ul.prevNext {
   text-align: center;
   box-shadow: #141414; 
   float: left;
+  color: #3F5EFB;
 }
 
 .button a {
@@ -107,7 +113,7 @@ ul.prevNext {
 .button:hover,
 .button:focus {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 8px 0 rgba(0,0,0,0.19);
-  
+  color: #FC466B;
 }
 
 div.thumb {
@@ -132,7 +138,47 @@ div.profileimage {
   margin: 1rem;
 }
 
+i.fab {
+  color: #fff;
+  font-size: 3rem;
+  margin: 1.5rem  ;
+}
 
+/* 
+//////////////////////////////////////// 
+Style for forms
+///////////////////////////////////////
+*/
+
+.contact-form {
+  width: 50%;
+
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.7rem 0.5rem;
+  margin: 0.7rem 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  margin-left: 0;
+  margin-bottom: 3rem;
+ float: none;
+}
+
+input::placeholder {
+  
+  font-size: 1.1rem;
+}
+
+/* 
+//////////////////////////////////////// 
+Style for the grid layout
+///////////////////////////////////////
+*/
 
 .row::before,
 .row::after {
