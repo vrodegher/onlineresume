@@ -3,7 +3,7 @@ title: Online Resume
 description: Online Resume built with React and Gatsby
 date: '2019-04-05'
 logo: 'resume.png'
-image: 'react1.jpg'
+image: 'resume.png'
 tags: ['React', 'gastby.js', 'GraphQL', 'Javascript']
 ---
 
