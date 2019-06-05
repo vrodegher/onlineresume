@@ -7,8 +7,7 @@ tags: ['PHP7','MySQL','OOP']
 ---
 
 ###Microblog Application 
-
-#### How is it built
+<br>
 The application is written in PHP7 and connected to a MySQL Database. 
 The user can create a post with a little text and a link. 
 There are registration and login functions and passwords are encrypted.

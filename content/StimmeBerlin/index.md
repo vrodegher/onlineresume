@@ -10,7 +10,7 @@ tags: ['Wordpress','WP Theme','PHP']
 ###Commissioned work for a voice therapy facility
 <br>
 
-### How is it built
+
 Basic web presence based on Wordpress with child-theme and other customized feature.
 
 ###What I've learned

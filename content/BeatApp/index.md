@@ -7,9 +7,9 @@ tags: ['javascript','howler.js', 'paper,js']
 ---
 
 ###Frontend application to play beats with the keyboard 
+<br>
 
 
-#### How is it built
 The App is written in vanilla Javascript. Sound is provided with the <a href=https://howlerjs.com/>howler.js</a> library and the animation through <a href="http://paperjs.org/"> paper.js</a>.
 
 

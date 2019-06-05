@@ -9,9 +9,9 @@ tags: ['javascript','game','DOM manipulation']
 
 
 ###Javascript version of the popular dice game
+<br>
 
 
-### How is it built
 The Game is written in Vanilla Javascript, styled with CSS.
 
 ###What I've learned
