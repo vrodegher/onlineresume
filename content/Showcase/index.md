@@ -10,7 +10,7 @@ tags: ['react', 'wordpress', 'Wordpress API', 'Headless CMS']
 ###Photo gallery created with Wordpress and React.js
 <br>
 
-### How is it built
+
 The gallery is built in Wordpress as a headless CMS using React.js for the Front-End application. The content is provided through the WP REST API.
 
 

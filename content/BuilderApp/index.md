@@ -10,7 +10,7 @@ tags: ['javascript','react']
 ###React App simulating a Burger Shop (part of an online boot camp about react.js)
 <br>
 
-### How is it built
+
 The App simulated a burger shop, where the costumers can build their own burger. With price calculation and check out function. It is built with react.js, written in JSX, and the graphic is provided with CSS. 
 
 
