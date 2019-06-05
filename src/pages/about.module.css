@@ -3,9 +3,9 @@
 
 
 div.skillcard {
-    padding: 0.5rem 1rem 3rem 2rem;
-    margin: 1rem auto;
-    height: 20rem;
+  padding: 0.5rem 1rem 3rem 2rem;
+  margin: 1rem auto;
+  height: 20rem;
   box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   position: relative;
@@ -15,22 +15,23 @@ div.skillcard {
 
 .skillcard h2, p {
    
-    color: #fff;
+color: #fff;
 
 }
 
 .skillcard h3 {
   
-  color: #1d2aaf;
+color: #1d2aaf;
 
 }
 
 p {
-  margin: 1.5rem 2rem 1rem 0rem;
-  font-size: 1.2rem;
+margin: 1.5rem 2rem 1rem 0rem;
+font-size: 1.2rem;
+color: #fff;
 }
 
 div.profileimage {
-  width: 25rem;
-  margin: 1rem;
+width: 25rem;
+margin: 1rem;
 }

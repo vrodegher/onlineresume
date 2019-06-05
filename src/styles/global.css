@@ -3,15 +3,25 @@
 
 @import url('https://fonts.googleapis.com/css?family=Paytone+One|Source+Sans+Pro&display=swap');
 
+/* 
+//////////////////////////////////////// 
+Varibles
+///////////////////////////////////////
+*/
 
 
 :root {
   --main-font-family:'Source Sans Pro', sans-serif;
   --alt-font-family: 'Paytone One', sans-serif;
-  --main-color: #1d2aaf;
+  --main-color: #3F5EFB;
   --alt-color: #ffffff;
 }
 
+/* 
+//////////////////////////////////////// 
+Global styles
+///////////////////////////////////////
+*/
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -24,6 +34,13 @@ html {
   
   }
 
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
 
 main {
   margin: 4rem auto;
@@ -34,7 +51,68 @@ main {
   padding: 0 10px;
   max-width: auto;
 }
- 
+
+/* 
+//////////////////////////////////////// 
+Style for the grid layout
+///////////////////////////////////////
+*/
+
+.row::before,
+.row::after {
+  display: table;
+  content: ' ';
+  clear: both;
+}
+
+.one,
+.two-thirds,
+.one-fourth,
+.half {
+  margin-top: 1.2rem;
+  width: 100%;
+}
+
+.one-third {
+  margin-top: 1.2rem;
+  width: calc(100% / 2);
+}
+
+.column {
+  margin-top: 2rem;
+  margin-bottom: -0.5rem;
+  float: left;
+}
+
+@media only screen and (min-width: 800px) {
+    .one {
+      width: 100%;
+    }
+    .half {
+      width: calc(100% / 2);
+    }
+    .one-third {
+      width: calc(100% / 3);
+    }
+    .one-fourth {
+      width: calc(100% / 4);
+    }
+    .two-thirds {
+      width: calc(100% / 3 * 2);
+    }
+    .column {
+      margin-top: 2rem;
+      margin-bottom: -0.5rem;
+      float: left;
+    }
+
+  }
+
+  /* 
+//////////////////////////////////////// 
+Styles for typography
+///////////////////////////////////////
+*/
   
   h1,
   h2,
@@ -53,29 +131,9 @@ main {
     margin-bottom: 3rem;
   }
 
-  h3 {
-    margin: 2rem auto;
-  }
-  
-
-
-  p {
+p {
     font-family: var(--main-font-family);
     color: var(--main-color);
-  }
-
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
-
-a {
-  color: var(--alt-color);
-    text-decoration: none;
-    background-image: none;
-    font-family: var(--alt-font-family);
 }
 
 ul.prevNext {
@@ -86,11 +144,17 @@ ul.prevNext {
   width: 100%;
 }
 
+/* 
+//////////////////////////////////////// 
+Styles for buttons and links
+///////////////////////////////////////
+*/
+
 .button {
   display: block;
-  font-size: 1rem;
-  width: 20%;
-  margin: 1rem;
+  font-size: 0.8rem;
+  width: 40%;
+  margin: 0.5rem 0;
   background: #fff;
   border: 1px solid  #afafaf;
   border-radius: 4px;
@@ -116,6 +180,31 @@ ul.prevNext {
   color: #FC466B;
 }
 
+a {
+  color: var(--alt-color);
+    text-decoration: none;
+    background-image: none;
+    font-family: var(--alt-font-family);
+}
+
+a:hover {
+  color: #FC466B;
+}
+
+@media only screen and (min-width: 800px) {
+
+  .button {
+    width: 30%;
+    font-size: 1rem;
+  }
+}
+
+/* 
+//////////////////////////////////////// 
+Styles for images and icons
+///////////////////////////////////////
+*/
+
 div.thumb {
     margin: 0; 
     padding: 1em; 
@@ -133,12 +222,15 @@ div.workimage {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 8px 0 rgba(0,0,0,0.19);
 }
 
-
-
 i.fab {
   color: #fff;
   font-size: 3rem;
   margin: 1.5rem  ;
+}
+
+i.fab:hover {
+  color: var(--main-color);
+ 
 }
 
 /* 
@@ -166,65 +258,32 @@ textarea {
  float: none;
 }
 
-
-
 input::placeholder {
   
   font-size: 1.1rem;
 }
 
+
+
 /* 
 //////////////////////////////////////// 
-Style for the grid layout
+Style for footer
 ///////////////////////////////////////
 */
 
-.row::before,
-.row::after {
-  display: table;
-  content: ' ';
-  clear: both;
-}
-
-.one,
-.one-third,
-.two-thirds,
-.one-fourth,
-.half {
-  margin-top: 1.2rem;
-  width: 100%;
-}
-
-@media only screen and (min-width: 800px) {
-    .one {
-      width: 100%;
-    }
-    .half {
-      width: calc(100% / 2);
-    }
-    .one-third {
-      width: calc(100% / 3);
-    }
-    .one-fourth {
-      width: calc(100% / 4);
-    }
-    .two-thirds {
-      width: calc(100% / 3 * 2);
-    }
-    .column {
-      margin-top: 2rem;
-      margin-bottom: -0.5rem;
-      float: left;
-    }
-
-    
-  }
-
-  div.footer {
+div.footer {
     clear:both;
     position: relative;
     height: 30px;
     bottom: -50px;
-     width: 100%;
-     text-align: center;
+    width: 100%;
+    text-align: center;
  }
+
+ .footer p {
+   font-size: 0.9rem;
+ }
+
+ .footer a:hover {
+ color: var(--main-color);
+}

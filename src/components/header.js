@@ -8,12 +8,13 @@ const ListLink = props => (
   </li>
 )
 
-const Header = ({ siteTitle }) => (
-  <header style={{ marginBottom: `1.5rem` }}>
-      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+const Header = ({ siteTitle, }) => (
+  <header style={{ marginBottom: `5rem` }}>
+      <Link to="/" >
         <h2 style={{ display: `inline` }}>{siteTitle}</h2>
+        
       </Link>
-      <ul style={{ listStyle: `none`, float: `right`}}>
+      <ul style={{ listStyle: `none`, float: `right`, marginTop: `2.5rem`}}>
         
         <ListLink to="/works/">Works</ListLink>
         <ListLink to="/about/">About</ListLink>
@@ -24,10 +25,12 @@ const Header = ({ siteTitle }) => (
 
   Header.propTypes = {
   siteTitle: PropTypes.string,
+  
  }
 
  Header.defaultProps = {
   siteTitle: ``,
+  
  }  
 
 export default Header
