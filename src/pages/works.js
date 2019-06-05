@@ -15,8 +15,10 @@ const IndexPage = (props) => {
   <Layout>
 
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+
       
       <div className="row">
+      
       {postList.edges.map(({ node }, i) => (
         <Link to={node.fields.slug} key={i} className="link" >
           
