@@ -8,7 +8,7 @@ tags: ['javascript','game','DOM manipulation']
 ---
 
 ###RGB Guess game
-<br>
+
 The game is written in Javascript and styled with CSS. 
 The user has to guess which color correspond to the random provided RGB code. 
 The game hat three levels of difficulty and a reset (new color) button.
