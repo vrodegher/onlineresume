@@ -16,7 +16,6 @@ The main data about the works are provided through Markdown files and queried th
 ###What I've learned
 With this project, I learn hot to work with gatsby.js and practice my react skills, also learn to use GraphQL to query data from different sources. I also get to know better how to manage packages and plug-in with NPM.
 
-
 ###Live: 
 <a href="/" target=_blank>Online Resume</a>
 

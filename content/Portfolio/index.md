@@ -8,7 +8,6 @@ tags: ['javascript','HTML5','CSS3','Bootstrap']
 
 ###Portfolio website (commissioned)
 
-
 The Portfolio Website is created with HTML5 and CSS3 based on Bootstrap library and animation through Javascript and JQuery.
 
 ###What I've learned
