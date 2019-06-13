@@ -281,9 +281,16 @@ div.footer {
  }
 
  .footer p {
-   font-size: 0.9rem;
+   font-size: 0.7rem;
  }
 
  .footer a:hover {
  color: var(--main-color);
+}
+
+@media only screen and (min-width: 800px) {
+
+  .footer p {
+    font-size: 0.9rem;
+  }
 }
