@@ -1,0 +1,11 @@
+div.privacy > ul {
+    font: 1.1rem sans-serif;
+    color: #fff;
+    line-height: 1.7rem;
+    list-style-type: none;
+    
+}
+
+div.privacy > li {
+    list-style-type: none;
+}

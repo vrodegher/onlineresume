@@ -7,8 +7,7 @@ tags: ['javascript','HTML5','CSS3','Bootstrap']
 ---
 
 ###Portfolio website (commissioned)
-
-The Portfolio Website is created with HTML5 and CSS3 based on Bootstrap library and animation through Javascript and JQuery.
+ The Portfolio Website is created with HTML5 and CSS3 based on Bootstrap library and animation through Javascript and JQuery.
 
 ###What I've learned
 I've practice how to create a website using Bootstrap as a boilerplate but trying to get a different result to the classic "bootstrap look".
