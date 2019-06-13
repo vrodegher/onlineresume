@@ -9,10 +9,10 @@ tags: ['javascript','howler.js', 'paper,js']
 ###Frontend application to play beats with the keyboard 
 <br>
 
-The App is written in vanilla Javascript. Sound is provided with the <a href=https://howlerjs.com/>howler.js</a> library and the animation through <a href="http://paperjs.org/"> paper.js</a>.
+ Written in vanilla Javascript. Sound is provided with the <a href=https://howlerjs.com/>howler.js</a> library and the animation through <a href="http://paperjs.org/"> paper.js</a>.
 
 ####What I've learned
-Through this project, I learned DOM manipulation through Javascript, basic algorithms and how to use extern Javascript libraries.
+ Through this project, I learned DOM manipulation through Javascript, basic algorithms and how to use extern Javascript libraries.
 
 ####Live: 
-<a href="https://rodegrafika.github.io/BeatApp/" target="_blank">Beat App</a>
+ <a href="https://rodegrafika.github.io/BeatApp/" target="_blank">Beat App</a>

@@ -5,7 +5,7 @@ import React from "react"
 const Footer = () =>
 <div className="footer">
 <p>
-<Link to="./pages/succes.js">Privacy Policy </Link> - Vanessa Rodegher 
+<Link to="/privacy/">Privacy Policy </Link> - Vanessa Rodegher 
   © 
   {new Date().getFullYear()}, Built with
 {` `}
