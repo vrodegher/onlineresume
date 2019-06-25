@@ -294,3 +294,45 @@ div.footer {
     font-size: 0.9rem;
   }
 }
+
+.m115 {
+  font-weight: 800;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.klein {
+  font-weight: 200;
+  font-size: 0.7em;
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+}
+
+.m115 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+@media only screen and (min-width: 800px) {
+
+  .m115 {
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .klein {
+    font-weight: 200;
+    font-size: 1.5em;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .m115 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+}

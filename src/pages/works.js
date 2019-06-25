@@ -2,11 +2,21 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 import styles from "./works.module.css"
 import Img from 'gatsby-image';
-
+import anime from 'animejs'
 import Layout from "../components/layout";
 
 import SEO from "../components/seo";
-import { skipPartiallyEmittedExpressions } from "typescript";
+
+anime({
+targets: '.card',
+opacity: [0,1],
+easing: "easeOutCirc",
+duration: 800,
+delay: function(el, i) {
+    return 800 * i;
+    },
+loop: false
+})
 
 
 const IndexPage = (props) => {
@@ -25,14 +35,14 @@ const IndexPage = (props) => {
           <div className="column one-third">
             <div className={styles.card}>
               
-            
+            <div className="card">
                 <div className="card-image"><Img fluid={node.frontmatter.logo.childImageSharp.fluid} /></div>
                 <div className={styles.cardcontent}>
                 <h1>{node.frontmatter.title}</h1>
                 <span>{node.frontmatter.date}</span>
                 <p>{node.excerpt}</p>
                 
-            
+            </div>
               </div>
             
              
