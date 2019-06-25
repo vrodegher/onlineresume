@@ -11,16 +11,7 @@ import SEO from "../components/seo";
 
 
 const IndexPage = (props) => {
-  anime({
-    targets: '.card',
-    opacity: [0,1],
-    easing: "easeOutCirc",
-    duration: 800,
-    delay: function(el, i) {
-        return 800 * i;
-        },
-    loop: false
-    })
+  
   const postList = props.data.allMarkdownRemark;
   return (
   <Layout>
