@@ -38,7 +38,8 @@ export default ({ data }) => (
           <h2>Web Technologies and Frameworks</h2>
           <h3>HTML5/CSS3 </h3>
           <h3>React.js - Gatsby.js </h3>
-          <h3>Vue.js (basic knowledge)</h3>
+          <h3>Node.js</h3>
+          <h3>d3.js (basic knowledge)</h3>
         </div>
       </div>
     
@@ -60,6 +61,7 @@ export default ({ data }) => (
     <h2>CMS and Database</h2>
     <h3>Wordpress</h3>
     <h3>MySQL - (MyPHPAdmin) </h3>
+    <h3>Firebase (Firestore)</h3>
     <h3>Drupal (basic knowledge)</h3>
     </div>
     </div>
